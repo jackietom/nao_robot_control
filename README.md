@@ -1,2 +1,2 @@
 # nao_robot_control
-projects to control a robot through kinect
+projects to control a nao robot through kinect
