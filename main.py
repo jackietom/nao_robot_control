@@ -5,6 +5,12 @@ import matplotlib.pyplot as plt
 from convertCod import *
 from LowerHalfTrans import *
 from calcCoM import calcCom
+from rayCast import rayCast
+import os
+
+#parameters
+control = 212.6
+the = 0.3
 
 x0 = np.array([0,0,0])
 x1 = np.array([0,100,0])
@@ -12,15 +18,15 @@ x2 = np.array([100,0,0])
 x3 = np.array([100,100,0])
 x4 = np.array([202.9,0,0])
 x5 = np.array([202.9,100,0])
-x4_1 = np.array([202.9, -25, 100])
-x4_2 = np.array([202.9, -25, -10])
-x5_1 = np.array([202.9, 125, 100])
-x5_2 = np.array([202.9, 125, -10])
+x4_1 = np.array([202.9, -25, 50])
+x4_2 = np.array([202.9, -25, -0])
+x5_1 = np.array([202.9, 125, 50])
+x5_2 = np.array([202.9, 125, -0])
 print(np.sqrt(np.sum(x5_1 - x5_2)**2))
 l1 = 100
 l2 = 102.9
 x = np.stack((x0,x1,x2,x3,x4,x5,x4_1,x4_2,x5_1,x5_2))
-Theta = np.array([1,0,0,0,0,0])
+Theta = np.array([the,0,0,0,0,0])
 x = lowerHalfTrans(x, Theta)
 x0 = x[0]
 x1 = x[1]
@@ -40,7 +46,7 @@ print(x5)
 print(x4_1,x4_2,x5_1,x5_2)
 print(np.sqrt(np.sum((x5_1 - x5_2)**2)))
 #get equation
-control = 210
+
 p = np.array([control, 50, 300])
 
 # These two vectors are in the plane
@@ -71,8 +77,16 @@ newVL = newVL/np.linalg.norm(newVL)
 print(newVL)
 
 vR = x4 - x2
+thetaRPitch = -atan(c/a) + atan(vR[2]/(vR[0]+0.0001))
+thetaRRoll = atan(b/sqrt(a**2+c**2)) - atan(vR[1]/(sqrt(vR[0]**2+vR[2]**2)))
+RPitch = np.array([[cos(thetaRPitch),0,sin(thetaRPitch)],[0,1,0],[-sin(thetaRPitch),0,cos(thetaRPitch)]])
+RRoll = np.array([[cos(thetaRRoll),-sin(thetaRRoll),0],[sin(thetaRRoll),cos(thetaRRoll),0],[0,0,1]])
+newVR = np.dot(RRoll,np.dot(RPitch,vR))
+newVR = newVR/np.linalg.norm(newVR)
+print(newVR)
 
-
+print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+print(thetaLRoll, thetaLPitch, thetaRRoll, thetaRPitch)
 #plot results
 if 0:
     ax = plt.figure().gca(projection='3d')
@@ -91,7 +105,7 @@ if 0:
     plt.show()
 
 #get Com of the robot
-Com = calcCom()
+Com = calcCom(the)
 M = Com[3]
 Com = Com[0:3]
 print(Com)
@@ -104,12 +118,41 @@ print(ComP)
 
 #judge whether the projection is in vertex
 #project 4 points to plane (not strict)
+print(x4_1,x4_2,x5_1,x5_2)
+print(np.sqrt(np.sum((x4_1 - x4_2)**2)))
+print(np.sqrt(np.sum((x5_1 - x5_2)**2)))
+
+x5_1 = np.dot(LRoll,np.dot(LPitch,x5_1-x5))+x5
+x5_2 = np.dot(LRoll,np.dot(LPitch,x5_2-x5))+x5
+
+x4_1 = np.dot(RRoll,np.dot(RPitch,x4_1-x4))+x4
+x4_2 = np.dot(RRoll,np.dot(RPitch,x4_2-x4))+x4
+print(x4_1,x4_2,x5_1,x5_2)
+print(np.sqrt(np.sum((x4_1 - x4_2)**2)))
+print(np.sqrt(np.sum((x5_1 - x5_2)**2)))
+
+if 0:
+    ax = plt.figure().gca(projection='3d')
+
+    x = [x4_1[0],x4_2[0],x5_2[0],x5_1[0]]
+    y = [x4_1[1],x4_2[1],x5_2[1],x5_1[1]]
+    z = [x4_1[2],x4_2[2],x5_2[2],x5_1[2]]
+    ax.plot(x,y,z)
+    ax.scatter(ComP[0],ComP[1],ComP[2])
+
+    plt.show()
+
+
 x4_1 = x4_1 - np.dot((x4_1 - p), cp)*cp
 x4_2 = x4_2 - np.dot((x4_2 - p), cp)*cp
 x5_1 = x5_1 - np.dot((x5_1 - p), cp)*cp
 x5_2 = x5_2 - np.dot((x5_2 - p), cp)*cp
 print('Foot after project:', x4_1,x4_2,x5_1,x5_2)
-
+PFar = np.array([2000,2000,2000])
+PFar = PFar - np.dot((PFar - p), cp)*cp
+xJudge = np.stack((x4_1,x4_2,x5_2,x5_1,ComP,PFar))
+IN = rayCast(xJudge)
+print(IN)
 #plot relation
 if 1:
     ax = plt.figure().gca(projection='3d')
@@ -121,3 +164,4 @@ if 1:
     ax.scatter(ComP[0],ComP[1],ComP[2])
 
     plt.show()
+
