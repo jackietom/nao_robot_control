@@ -1,0 +1,8 @@
+/home/zy/Documents/SummerResearch/naoGazebo/nao_virtual_ws/build/nao_virtual/nao_control/CMakeFiles/_catkin_empty_exported_target.dir
+/home/zy/Documents/SummerResearch/naoGazebo/nao_virtual_ws/build/CMakeFiles/clean_test_results.dir
+/home/zy/Documents/SummerResearch/naoGazebo/nao_virtual_ws/build/CMakeFiles/download_extra_data.dir
+/home/zy/Documents/SummerResearch/naoGazebo/nao_virtual_ws/build/CMakeFiles/doxygen.dir
+/home/zy/Documents/SummerResearch/naoGazebo/nao_virtual_ws/build/gtest/CMakeFiles/gtest.dir
+/home/zy/Documents/SummerResearch/naoGazebo/nao_virtual_ws/build/gtest/CMakeFiles/gtest_main.dir
+/home/zy/Documents/SummerResearch/naoGazebo/nao_virtual_ws/build/CMakeFiles/run_tests.dir
+/home/zy/Documents/SummerResearch/naoGazebo/nao_virtual_ws/build/CMakeFiles/tests.dir
