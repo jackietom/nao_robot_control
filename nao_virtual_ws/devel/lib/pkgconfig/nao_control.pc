@@ -1,8 +1,0 @@
-prefix=/home/zy/Documents/SummerResearch/naoGazebo/nao_virtual_ws/devel
-
-Name: nao_control
-Description: Description of nao_control
-Version: 0.0.6
-Cflags: 
-Libs: -L/home/zy/Documents/SummerResearch/naoGazebo/nao_virtual_ws/devel/lib 
-Requires: 

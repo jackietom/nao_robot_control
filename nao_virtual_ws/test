@@ -1,5 +1,0 @@
-#!/bin/bash
-
-sleep 8s
-
-rosrun nao_control talker.py
