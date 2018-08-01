@@ -4,16 +4,29 @@ from calcAnkleLine import *
 import os
 
 #parameters
-roLHipPitch = 0.6
-roLHipRoll = 0.1
-roRHipPitch = 0.6
-roRHipRoll = 0.1
+#Lower part
+roLHipPitch = 0
+roLHipRoll = 0
+roRHipPitch = 0
+roRHipRoll = 0
 roLKnee = 0
 roRKnee = 0
+#Upper part
+roLShoulderPitch = 0
+roLShoulderRoll = 0
+roRShoulderPitch = 0
+roRShoulderRoll = 0
+roLElbowYaw = 0
+roLElbowRoll = 0
+roRElbowYaw = 0
+roRElbowRoll = -1
 
-Theta = np.array([roLHipPitch,roLHipRoll,roRHipPitch,roRHipRoll,roLKnee,roRKnee])
-result = calcAnkleLine(Theta)
-result = judge(result,Theta)
+
+ThetaL = np.array([roLHipPitch,roLHipRoll,roRHipPitch,roRHipRoll,roLKnee,roRKnee])
+ThetaU = np.array([roLShoulderPitch, roLShoulderRoll, roRShoulderPitch, roRShoulderRoll,
+                   roLElbowYaw, roLElbowRoll, roRElbowYaw, roRElbowRoll])
+result = calcAnkleLine(ThetaL, ThetaU)
+result = judge(result,ThetaL, ThetaU)
 
 print(result)
 

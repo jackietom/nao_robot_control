@@ -1,7 +1,7 @@
 import numpy as np
 from LowerHalfTrans import *
 from calcCoM import *
-def calcAnkleLine(Theta):
+def calcAnkleLine(ThetaL, ThetaU):
     x0 = np.array([0,0,0])
     x1 = np.array([0,100,0])
     x2 = np.array([100,0,0])
@@ -12,10 +12,11 @@ def calcAnkleLine(Theta):
     x4_2 = np.array([202.9, -25, -10])
     x5_1 = np.array([202.9, 125, 0])
     x5_2 = np.array([202.9, 125, -10])
+
     l1 = 100
     l2 = 102.9
     x = np.stack((x0,x1,x2,x3,x4,x5,x4_1,x4_2,x5_1,x5_2))
-    x = lowerHalfTrans(x, Theta)
+    x = lowerHalfTrans(x, ThetaL)
     x0 = x[0]
     x1 = x[1]
     x2 = x[2]
@@ -27,9 +28,10 @@ def calcAnkleLine(Theta):
     x5_1 = x[8]
     x5_2 = x[9]
     #get equation
-    Com = calcCom(Theta)
+    Com = calcCom(ThetaL, ThetaU)
     M = Com[3]
     Com = Com[0:3]
+    Com = convCod2book(Com)
 
     cp = np.cross(Com - x4_1, x5_1 - x4_1)
     cp  = np.cross(cp, x5_1 - x4_1)
@@ -53,4 +55,6 @@ def calcAnkleLine(Theta):
 
     result = [a,b,c,thetaLPitch, thetaLRoll, thetaRPitch, thetaRRoll, \
                        x0,x1,x2,x3,x4,x5,x4_1,x4_2,x5_1,x5_2]
+
+    print(thetaRRoll, thetaLRoll, thetaLPitch, thetaRPitch)
     return result

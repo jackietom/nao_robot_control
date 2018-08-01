@@ -67,6 +67,11 @@ def lowerHalfComTrans(x,Theta):
     x[3] = np.dot(LHipRoll,np.dot(LHipPitch,x[3] - x[12])) + x[12]
     x[5] = np.dot(LHipRoll,np.dot(LHipPitch,x[5] - x[12])) + x[12]
 
+    #x[13] and x[14] need to be updated
+    #x[13] = np.dot(RHipRoll,np.dot(RHipPitch,x[13]))
+    #x[14] = np.dot(LHipRoll,np.dot(LHipPitch,x[14] - x[12])) + x[12]
+
+
     x[6] = np.dot(RHipRoll,np.dot(RHipPitch,x[6])) - x[13]
     x[6] = x[13] + np.dot(RKneePitch,x[6])
     x[8] = np.dot(RHipRoll,np.dot(RHipPitch,x[8])) - x[13]
