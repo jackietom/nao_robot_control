@@ -8,9 +8,9 @@ def calcAnkleLine(Theta):
     x3 = np.array([100,100,0])
     x4 = np.array([202.9,0,0])
     x5 = np.array([202.9,100,0])
-    x4_1 = np.array([202.9, -25, -17])
+    x4_1 = np.array([202.9, -25, 20])
     x4_2 = np.array([202.9, -25, -50])
-    x5_1 = np.array([202.9, 125, -17])
+    x5_1 = np.array([202.9, 125, 20])
     x5_2 = np.array([202.9, 125, -50])
     l1 = 100
     l2 = 102.9
@@ -30,6 +30,7 @@ def calcAnkleLine(Theta):
     Com = calcCom(Theta)
     M = Com[3]
     Com = Com[0:3]
+    Com = convCod2book(Com)
 
     cp = np.cross(Com - x4_1, x5_1 - x4_1)
     cp  = np.cross(cp, x5_1 - x4_1)
