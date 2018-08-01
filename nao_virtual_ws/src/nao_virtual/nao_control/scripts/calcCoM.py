@@ -1,7 +1,8 @@
 import numpy as np
 from LowerHalfTrans import lowerHalfComTrans
+from UpperHalfTrans import UpperHalfComTrans
 from convertCod import *
-def calcCom(Theta):
+def calcCom(ThetaL, ThetaU):
     #center of mass of different parts in local coordinates
     #reference http://doc.aldebaran.com/2-1/family/nao_h25/masses_h25_v4.html#h25-masses-v4
     ComTorso = np.array([-0.00413, 0, 0.04342])
@@ -55,7 +56,7 @@ def calcCom(Theta):
     ComLFeet = np.array([0.02542, 0.0033, -0.03239])
     MLFeet = 0.16184
 
-    #*****************************************************
+    #***************************************************8
     #Joint location
     JTorso = np.array([0,0,0])
     JHead = np.array([0,0,126.5])
@@ -76,14 +77,39 @@ def calcCom(Theta):
     MU = MTorso + MNeck + MHead + MLShoulder + MRShoulder + MLBiceps + MRBiceps + MLElbow + MRElbow \
         + MLForeArm + MRForeArm + MLHand + MRHand
 
-    ComU = (ComTorso+JTorso)*MTorso/MU + (ComNeck + JHead)*MNeck/MU \
-        + (ComHead + JHead)*MHead/MU + (ComLShoulder + JTorso)*MLShoulder/MU \
-        + (ComRShoulder + JTorso)*MRShoulder/MU + (ComLBiceps + JLShoulder)*MLBiceps/MU \
-        + (ComRBiceps + JRShoulder)*MRBiceps/MU + (ComLElbow + JLShoulder)*MLElbow/MU \
-        + (ComRElbow + JRShoulder)*MRElbow/MU + (ComLForeArm + JLShoulder)*MLForeArm/MU \
-        + (ComRForeArm + JRShoulder)*MRForeArm/MU + (ComLHand + JLElbow)*MLHand/MU \
-        +(ComRHand + JRElbow)*MRHand/MU
+    x = np.array([ComTorso+JTorso, ComNeck+JHead, ComHead+JHead, ComLShoulder+JTorso,
+                  ComRShoulder+JTorso, ComLBiceps + JLShoulder, ComRBiceps + JRShoulder,
+                  ComLElbow + JLShoulder, ComRElbow+JRShoulder, ComLForeArm + JLShoulder,
+                  ComRForeArm + JRShoulder, ComLHand + JLHand, ComRHand+JRHand,
+                  JLShoulder, JRShoulder, JLElbow, JRElbow])
 
+    for i in range(np.size(x,0)):
+        x[i] = convCod2book(x[i])
+
+    x = UpperHalfComTrans(x, ThetaU)
+    for i in range(np.size(x,0)):
+        x[i] = convCod2doc(x[i])
+
+
+    #fix upper body
+    if 0:
+        ComU = (ComTorso+JTorso)*MTorso/MU + (ComNeck + JHead)*MNeck/MU \
+           + (ComHead + JHead)*MHead/MU + (ComLShoulder + JTorso)*MLShoulder/MU \
+           + (ComRShoulder + JTorso)*MRShoulder/MU + (ComLBiceps + JLShoulder)*MLBiceps/MU \
+           + (ComRBiceps + JRShoulder)*MRBiceps/MU + (ComLElbow + JLShoulder)*MLElbow/MU \
+           + (ComRElbow + JRShoulder)*MRElbow/MU + (ComLForeArm + JLShoulder)*MLForeArm/MU \
+           + (ComRForeArm + JRShoulder)*MRForeArm/MU + (ComLHand + JLHand)*MLHand/MU \
+           +(ComRHand + JRHand)*MRHand/MU
+    else:
+        ComU = x[0]*MTorso/MU + x[1]*MNeck/MU \
+            + x[2]*MHead/MU + x[3]*MLShoulder/MU \
+            + x[4]*MRShoulder/MU + x[5]*MLBiceps/MU \
+            + x[6]*MRBiceps/MU + x[7]*MLElbow/MU \
+            + x[8]*MRElbow/MU + x[9]*MLForeArm/MU \
+            + x[10]*MRForeArm/MU + x[11]*MLHand/MU \
+            + x[12]*MRHand/MU
+
+    print('Com of upper body: ', ComU)
     MU = np.array([MU])
 
     #Com of lower half
@@ -108,7 +134,7 @@ def calcCom(Theta):
     for i in range(np.size(x,0)):
         x[i] = convCod2book(x[i])
 
-    x = lowerHalfComTrans(x, Theta)
+    x = lowerHalfComTrans(x, ThetaL)
     for i in range(np.size(x,0)):
         x[i] = convCod2doc(x[i])
 

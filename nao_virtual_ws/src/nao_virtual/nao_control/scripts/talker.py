@@ -127,15 +127,26 @@ def talker():
         roRHipRoll = hello_str.position[9]
         roLKnee = hello_str.position[5]
         roRKnee = hello_str.position[11]
+        roLShoulderPitch = hello_str.position[14]
+        roLShoulderRoll = hello_str.position[15]
+        roRShoulderPitch = hello_str.position[20]
+        roRShoulderRoll = hello_str.position[21]
+        roLElbowYaw = hello_str.position[16]
+        roLElbowRoll = hello_str.position[17]
+        roRElbowYaw = hello_str.position[22]
+        roRElbowRoll = hello_str.position[23]
 
-        Theta = np.array([roLHipPitch,roLHipRoll,roRHipPitch,roRHipRoll,roLKnee,roRKnee])
-        result = calcAnkleLine(Theta)
-        result = judge(result,Theta)
 
-        thetaLPitch = result[1]
-        thetaLRoll = result[2]
-        thetaRPitch = result[3]
-        thetaRRoll = result[4]
+        ThetaL = np.array([roLHipPitch,roLHipRoll,roRHipPitch,roRHipRoll,roLKnee,roRKnee])
+        ThetaU = np.array([roLShoulderPitch, roLShoulderRoll, roRShoulderPitch, roRShoulderRoll, 
+                          roLElbowYaw, roLElbowRoll, roRElbowYaw, roRElbowRoll])
+        result = calcAnkleLine(ThetaL, ThetaU)
+        #result = judge(result,ThetaL, ThetaU)
+
+        thetaLPitch = result[3]
+        thetaLRoll = result[4]
+        thetaRPitch = result[5]
+        thetaRRoll = result[6]
         #define restrict for joint angles
         #http://doc.aldebaran.com/1-14/family/robots/joints_robot.html#robot-joints-v4-left-leg-joints
         if roLHipPitch < HipPitchMin or roLHipPitch > HipPitchMax:
@@ -194,27 +205,27 @@ def talker():
         #pubHeadYaw.publish(hello_str.position[0])
         pubLAnklePitch.publish(thetaLPitch) 
         pubLAnkleRoll.publish(thetaLRoll) 
-        #pubLElbowRoll.publish(hello_str.position[17])
-        #pubLElbowYaw.publish(hello_str.position[16])
+        pubLElbowRoll.publish(hello_str.position[17])
+        pubLElbowYaw.publish(hello_str.position[16])
         #pubLHand.publish(hello_str.position[19])
         pubLHipPitch.publish(roLHipPitch)
         pubLHipRoll.publish(roLHipRoll)
         #pubLHipYawPitch.publish(hello_str.position[2])
         pubLKneePitch.publish(roLKnee)
-        #pubLShoulderPitch.publish(hello_str.position[14])
-        #pubLShoulderRoll.publish(hello_str.position[15])
+        pubLShoulderPitch.publish(hello_str.position[14])
+        pubLShoulderRoll.publish(hello_str.position[15])
         #pubLWristYaw.publish(hello_str.position[18])
         pubRAnklePitch.publish(thetaRPitch)
         pubRAnkleRoll.publish(thetaRRoll)
-        #pubRElbowRoll.publish(hello_str.position[23])
-        #pubRElbowYaw.publish(hello_str.position[22])
+        pubRElbowRoll.publish(hello_str.position[23])
+        pubRElbowYaw.publish(hello_str.position[22])
         #pubRHand.publish(hello_str.position[25])
         pubRHipPitch.publish(roRHipPitch)
         pubRHipRoll.publish(roRHipRoll)
         #pubRHipYawPitch.publish(hello_str.position[8])
         pubRKneePitch.publish(roRKnee)
-        #pubRShoulderPitch.publish(hello_str.position[20])  
-        #pubRShoulderRoll.publish(hello_str.position[21])
+        pubRShoulderPitch.publish(hello_str.position[20])  
+        pubRShoulderRoll.publish(hello_str.position[21])
         #pubRWristYaw.publish(hello_str.position[24])
 
         rate.sleep()

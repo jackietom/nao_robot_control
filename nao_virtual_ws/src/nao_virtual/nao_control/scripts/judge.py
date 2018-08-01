@@ -5,7 +5,7 @@ from rayCast import *
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 
-def judge(param,Theta):
+def judge(param,ThetaL, ThetaU):
     a = param[0]
     b = param[1]
     c = param[2]
@@ -44,7 +44,7 @@ def judge(param,Theta):
         plt.show()
 
     #get Com of the robot
-    Com = calcCom(Theta)
+    Com = calcCom(ThetaL, ThetaU)
     M = Com[3]
     Com = Com[0:3]
     Com = convCod2book(Com)
@@ -82,13 +82,13 @@ def judge(param,Theta):
     IN = rayCast(xJudge)
 
     #plot relation
-    if 0:
+    if 1:
         ax = plt.figure().gca(projection='3d')
 
         x = [x4_1[0],x4_2[0],x5_2[0],x5_1[0]]
         y = [x4_1[1],x4_2[1],x5_2[1],x5_1[1]]
         z = [x4_1[2],x4_2[2],x5_2[2],x5_1[2]]
-        ax.plot(x,y,z)
+        ax.plot(x, y, z)
         ax.scatter(ComP[0],ComP[1],ComP[2])
         #ax.scatter(PFar[0], PFar[1], PFar[2])
 
@@ -96,4 +96,4 @@ def judge(param,Theta):
 
 
     result = IN
-    return [result, thetaLPitch, thetaLRoll, thetaRPitch, thetaRRoll]
+    return result
