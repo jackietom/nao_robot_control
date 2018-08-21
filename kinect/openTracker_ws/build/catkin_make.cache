@@ -1,0 +1,2 @@
+JointFromKinect:openni_tracker
+-DCATKIN_DEVEL_PREFIX=/home/zy/Documents/SummerResearch/kinect/openTracker_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zy/Documents/SummerResearch/kinect/openTracker_ws/install -G Unix Makefiles

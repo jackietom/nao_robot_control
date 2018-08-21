@@ -1,0 +1,1694 @@
+execve("./HandViewer", ["./HandViewer"], [/* 33 vars */]) = 0
+brk(0)                                  = 0xc6a000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("./tls/x86_64/libglut.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libglut.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libglut.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libglut.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libglut.so.3>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240n\1\0\0\0\0\0"..., 832) = 832
+fstat(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libglut.so.3>, {st_mode=S_IFREG|0644, st_size=302952, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e9000
+getcwd("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin", 128) = 72
+mmap(NULL, 2398864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libglut.so.3>, 0) = 0x7f7bbe27e000
+mprotect(0x7f7bbe2bf000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bbe4bf000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libglut.so.3>, 0x41000) = 0x7f7bbe4bf000
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libglut.so.3>) = 0
+open("./tls/x86_64/libGL.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libGL.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libGL.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libGL.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/tls/x86_64/libGL.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/tls/x86_64", 0x7fff9e61ff80) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/tls/libGL.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/tls", 0x7fff9e61ff80) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/x86_64/libGL.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/x86_64", 0x7fff9e61ff80) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libGL.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=135840, ...}) = 0
+mmap(NULL, 135840, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f7bbe6c7000
+close(3</etc/ld.so.cache>)              = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/mesa/libGL.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\177\1\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0>, {st_mode=S_IFREG|0644, st_size=582136, ...}) = 0
+mmap(NULL, 2679944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0>, 0) = 0x7f7bbdfef000
+mprotect(0x7f7bbe079000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bbe279000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0>, 0x8a000) = 0x7f7bbe279000
+mmap(0x7f7bbe27d000, 1160, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe27d000
+close(3</usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0>) = 0
+open("./tls/x86_64/libOpenNI2.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libOpenNI2.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libOpenNI2.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libOpenNI2.so", O_RDONLY|O_CLOEXEC) = 3
+read(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libOpenNI2.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0Pg\0\0\0\0\0\0"..., 832) = 832
+fstat(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libOpenNI2.so>, {st_mode=S_IFREG|0775, st_size=471830, ...}) = 0
+getcwd("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin", 128) = 72
+mmap(NULL, 2597696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libOpenNI2.so>, 0) = 0x7f7bbdd74000
+mprotect(0x7f7bbddcb000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bbdfcb000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libOpenNI2.so>, 0x57000) = 0x7f7bbdfcb000
+mmap(0x7f7bbdfce000, 131904, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7bbdfce000
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libOpenNI2.so>) = 0
+open("./tls/x86_64/libNiTE2.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libNiTE2.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libNiTE2.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libNiTE2.so", O_RDONLY|O_CLOEXEC) = 3
+read(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libNiTE2.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\0\3\0\0\0\0\0"..., 832) = 832
+fstat(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libNiTE2.so>, {st_mode=S_IFREG|0775, st_size=5876977, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6c6000
+getcwd("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin", 128) = 72
+mmap(NULL, 7059520, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libNiTE2.so>, 0) = 0x7f7bbd6b8000
+mprotect(0x7f7bbdb5f000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbdd5e000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libNiTE2.so>, 0x4a6000) = 0x7f7bbdd5e000
+mmap(0x7f7bbdd6c000, 30784, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7bbdd6c000
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libNiTE2.so>) = 0
+open("./tls/x86_64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \266\5\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19>, {st_mode=S_IFREG|0644, st_size=979056, ...}) = 0
+mmap(NULL, 3159040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19>, 0) = 0x7f7bbd3b4000
+mprotect(0x7f7bbd49a000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbd699000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19>, 0xe5000) = 0x7f7bbd699000
+mmap(0x7f7bbd6a3000, 82944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7bbd6a3000
+close(3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19>) = 0
+open("./tls/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libgcc_s.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260*\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libgcc_s.so.1>, {st_mode=S_IFREG|0644, st_size=90160, ...}) = 0
+mmap(NULL, 2186016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0) = 0x7f7bbd19e000
+mprotect(0x7f7bbd1b4000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbd3b3000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0x15000) = 0x7f7bbd3b3000
+close(3</lib/x86_64-linux-gnu/libgcc_s.so.1>) = 0
+open("./tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libc-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P \2\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libc-2.19.so>, {st_mode=S_IFREG|0755, st_size=1857312, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6c5000
+mmap(NULL, 3965632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0) = 0x7f7bbcdd5000
+mprotect(0x7f7bbcf93000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bbd193000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0x1be000) = 0x7f7bbd193000
+mmap(0x7f7bbd199000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7bbd199000
+close(3</lib/x86_64-linux-gnu/libc-2.19.so>) = 0
+open("./tls/x86_64/libX11.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libX11.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libX11.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libX11.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libX11.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libX11.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\207\1\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, {st_mode=S_IFREG|0644, st_size=1265072, ...}) = 0
+mmap(NULL, 3362112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0) = 0x7f7bbcaa0000
+mprotect(0x7f7bbcbd0000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bbcdd0000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0x130000) = 0x7f7bbcdd0000
+close(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>) = 0
+open("./tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libm-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20V\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libm-2.19.so>, {st_mode=S_IFREG|0644, st_size=1071552, ...}) = 0
+mmap(NULL, 3166568, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.19.so>, 0) = 0x7f7bbc79a000
+mprotect(0x7f7bbc89f000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbca9e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.19.so>, 0x104000) = 0x7f7bbca9e000
+close(3</lib/x86_64-linux-gnu/libm-2.19.so>) = 0
+open("./tls/x86_64/libXi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libXi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libXi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libXi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libXi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libXi.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libXi.so.6.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340!\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libXi.so.6.1.0>, {st_mode=S_IFREG|0644, st_size=63880, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6c4000
+mmap(NULL, 2159272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXi.so.6.1.0>, 0) = 0x7f7bbc58a000
+mprotect(0x7f7bbc599000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbc798000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXi.so.6.1.0>, 0xe000) = 0x7f7bbc798000
+close(3</usr/lib/x86_64-linux-gnu/libXi.so.6.1.0>) = 0
+open("./tls/x86_64/libXxf86vm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libXxf86vm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libXxf86vm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libXxf86vm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libXxf86vm.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libXxf86vm.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\17\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=22720, ...}) = 0
+mmap(NULL, 2117960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0>, 0) = 0x7f7bbc384000
+mprotect(0x7f7bbc388000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bbc588000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0>, 0x4000) = 0x7f7bbc588000
+close(3</usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0>) = 0
+open("./tls/x86_64/libexpat.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libexpat.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libexpat.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libexpat.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libexpat.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`;\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, {st_mode=S_IFREG|0644, st_size=170056, ...}) = 0
+mmap(NULL, 2265216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, 0) = 0x7f7bbc15a000
+mprotect(0x7f7bbc181000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bbc381000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, 0x27000) = 0x7f7bbc381000
+close(3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>) = 0
+open("./tls/x86_64/libglapi.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libglapi.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libglapi.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libglapi.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libglapi.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libglapi.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\245\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0>, {st_mode=S_IFREG|0644, st_size=182528, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6c3000
+mmap(NULL, 2283880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0>, 0) = 0x7f7bbbf2c000
+mprotect(0x7f7bbbf55000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbc154000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0>, 0x28000) = 0x7f7bbc154000
+mmap(0x7f7bbc159000, 2408, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7bbc159000
+close(3</usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0>) = 0
+open("./tls/x86_64/libXext.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libXext.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libXext.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libXext.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libXext.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libXext.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2005\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, {st_mode=S_IFREG|0644, st_size=73288, ...}) = 0
+mmap(NULL, 2169048, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, 0) = 0x7f7bbbd1a000
+mprotect(0x7f7bbbd2b000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbbf2a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, 0x10000) = 0x7f7bbbf2a000
+close(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>) = 0
+open("./tls/x86_64/libXdamage.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libXdamage.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libXdamage.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libXdamage.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libXdamage.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libXdamage.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\v\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>, {st_mode=S_IFREG|0644, st_size=10248, ...}) = 0
+mmap(NULL, 2105528, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>, 0) = 0x7f7bbbb17000
+mprotect(0x7f7bbbb19000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbbd18000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>, 0x1000) = 0x7f7bbbd18000
+close(3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>) = 0
+open("./tls/x86_64/libXfixes.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libXfixes.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libXfixes.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libXfixes.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libXfixes.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libXfixes.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, {st_mode=S_IFREG|0644, st_size=22584, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6c2000
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, 0) = 0x7f7bbb911000
+mprotect(0x7f7bbb916000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbbb15000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, 0x4000) = 0x7f7bbbb15000
+close(3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>) = 0
+open("./tls/x86_64/libX11-xcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libX11-xcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libX11-xcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libX11-xcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libX11-xcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\5\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=5992, ...}) = 0
+mmap(NULL, 2101304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0>, 0) = 0x7f7bbb70f000
+mprotect(0x7f7bbb710000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbb90f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0>, 0) = 0x7f7bbb90f000
+close(3</usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0>) = 0
+open("./tls/x86_64/libxcb-glx.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libxcb-glx.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libxcb-glx.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libxcb-glx.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libxcb-glx.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libxcb-glx.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libxcb-glx.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\237\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libxcb-glx.so.0.0.0>, {st_mode=S_IFREG|0644, st_size=92240, ...}) = 0
+mmap(NULL, 2187368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-glx.so.0.0.0>, 0) = 0x7f7bbb4f8000
+mprotect(0x7f7bbb50d000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbb70c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-glx.so.0.0.0>, 0x14000) = 0x7f7bbb70c000
+close(3</usr/lib/x86_64-linux-gnu/libxcb-glx.so.0.0.0>) = 0
+open("./tls/x86_64/libxcb-dri2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libxcb-dri2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libxcb-dri2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libxcb-dri2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libxcb-dri2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\30\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0.0.0>, {st_mode=S_IFREG|0644, st_size=18512, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6c1000
+mmap(NULL, 2113640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0.0.0>, 0) = 0x7f7bbb2f3000
+mprotect(0x7f7bbb2f6000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bbb4f6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0.0.0>, 0x3000) = 0x7f7bbb4f6000
+close(3</usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0.0.0>) = 0
+open("./tls/x86_64/libxcb-dri3.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libxcb-dri3.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libxcb-dri3.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libxcb-dri3.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libxcb-dri3.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0>, {st_mode=S_IFREG|0644, st_size=10336, ...}) = 0
+mmap(NULL, 2105464, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0>, 0) = 0x7f7bbb0f0000
+mprotect(0x7f7bbb0f2000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbb2f1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0>, 0x1000) = 0x7f7bbb2f1000
+close(3</usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0>) = 0
+open("./tls/x86_64/libxcb-present.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libxcb-present.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libxcb-present.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libxcb-present.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libxcb-present.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libxcb-present.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libxcb-present.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libxcb-present.so.0.0.0>, {st_mode=S_IFREG|0644, st_size=10320, ...}) = 0
+mmap(NULL, 2105448, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-present.so.0.0.0>, 0) = 0x7f7bbaeed000
+mprotect(0x7f7bbaeef000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbb0ee000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-present.so.0.0.0>, 0x1000) = 0x7f7bbb0ee000
+close(3</usr/lib/x86_64-linux-gnu/libxcb-present.so.0.0.0>) = 0
+open("./tls/x86_64/libxcb-sync.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libxcb-sync.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libxcb-sync.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libxcb-sync.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libxcb-sync.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libxcb-sync.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libxcb-sync.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libxcb-sync.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=22624, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6c0000
+mmap(NULL, 2117752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-sync.so.1.0.0>, 0) = 0x7f7bbace7000
+mprotect(0x7f7bbacec000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbaeeb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-sync.so.1.0.0>, 0x4000) = 0x7f7bbaeeb000
+close(3</usr/lib/x86_64-linux-gnu/libxcb-sync.so.1.0.0>) = 0
+open("./tls/x86_64/libxcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libxcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libxcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libxcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libxcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \226\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, {st_mode=S_IFREG|0644, st_size=125392, ...}) = 0
+mmap(NULL, 2220648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0) = 0x7f7bbaac8000
+mprotect(0x7f7bbaae5000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bbace5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0x1d000) = 0x7f7bbace5000
+close(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>) = 0
+open("./tls/x86_64/libxshmfence.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libxshmfence.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libxshmfence.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libxshmfence.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libxshmfence.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libxshmfence.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libxshmfence.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\t\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libxshmfence.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=6096, ...}) = 0
+mmap(NULL, 2101376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxshmfence.so.1.0.0>, 0) = 0x7f7bba8c6000
+mprotect(0x7f7bba8c7000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bbaac6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxshmfence.so.1.0.0>, 0) = 0x7f7bbaac6000
+close(3</usr/lib/x86_64-linux-gnu/libxshmfence.so.1.0.0>) = 0
+open("./tls/x86_64/libdrm.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libdrm.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libdrm.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libdrm.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libdrm.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libdrm.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2605\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0>, {st_mode=S_IFREG|0644, st_size=55640, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6bf000
+mmap(NULL, 2153392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0>, 0) = 0x7f7bba6b8000
+mprotect(0x7f7bba6c5000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bba8c4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0>, 0xc000) = 0x7f7bba8c4000
+close(3</usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0>) = 0
+open("./tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libpthread-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0po\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libpthread-2.19.so>, {st_mode=S_IFREG|0755, st_size=141574, ...}) = 0
+mmap(NULL, 2217264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.19.so>, 0) = 0x7f7bba49a000
+mprotect(0x7f7bba4b3000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bba6b2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.19.so>, 0x18000) = 0x7f7bba6b2000
+mmap(0x7f7bba6b4000, 13616, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7bba6b4000
+close(3</lib/x86_64-linux-gnu/libpthread-2.19.so>) = 0
+open("./tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libdl-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libdl-2.19.so>, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.19.so>, 0) = 0x7f7bba296000
+mprotect(0x7f7bba299000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bba498000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.19.so>, 0x2000) = 0x7f7bba498000
+close(3</lib/x86_64-linux-gnu/libdl-2.19.so>) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6be000
+open("./tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/librt-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P#\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/librt-2.19.so>, {st_mode=S_IFREG|0644, st_size=31792, ...}) = 0
+mmap(NULL, 2129016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/librt-2.19.so>, 0) = 0x7f7bba08e000
+mprotect(0x7f7bba095000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bba294000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/librt-2.19.so>, 0x6000) = 0x7f7bba294000
+close(3</lib/x86_64-linux-gnu/librt-2.19.so>) = 0
+open("./tls/x86_64/libXau.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libXau.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libXau.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libXau.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libXau.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libXau.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, {st_mode=S_IFREG|0644, st_size=14456, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6bd000
+mmap(NULL, 2109720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0) = 0x7f7bb9e8a000
+mprotect(0x7f7bb9e8c000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bba08c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0x2000) = 0x7f7bba08c000
+close(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>) = 0
+open("./tls/x86_64/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\23\0\0\0\0\0\0"..., 832) = 832
+fstat(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, {st_mode=S_IFREG|0644, st_size=22616, ...}) = 0
+mmap(NULL, 2117856, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0) = 0x7f7bb9c84000
+mprotect(0x7f7bb9c89000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bb9e88000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0x4000) = 0x7f7bb9e88000
+close(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6bc000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6bb000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6b9000
+arch_prctl(ARCH_SET_FS, 0x7f7bbe6b9b80) = 0
+mprotect(0x7f7bbd193000, 16384, PROT_READ) = 0
+mprotect(0x7f7bb9e88000, 4096, PROT_READ) = 0
+mprotect(0x7f7bba08c000, 4096, PROT_READ) = 0
+mprotect(0x7f7bba6b2000, 4096, PROT_READ) = 0
+mprotect(0x7f7bba294000, 4096, PROT_READ) = 0
+mprotect(0x7f7bba498000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbca9e000, 4096, PROT_READ) = 0
+mprotect(0x7f7bba8c4000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbaac6000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbace5000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbaeeb000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbb0ee000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbb2f1000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbb4f6000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbb70c000, 8192, PROT_READ) = 0
+mprotect(0x7f7bbb90f000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbcdd0000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbbb15000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbbd18000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbbf2a000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbc154000, 16384, PROT_READ) = 0
+mprotect(0x7f7bbc381000, 8192, PROT_READ) = 0
+mprotect(0x7f7bbc588000, 4096, PROT_READ) = 0
+mprotect(0x7f7bbc798000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6b8000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6b7000
+mprotect(0x7f7bbd699000, 32768, PROT_READ) = 0
+mprotect(0x7f7bbdfcb000, 8192, PROT_READ) = 0
+mprotect(0x7f7bbdd5e000, 49152, PROT_READ) = 0
+mprotect(0x7f7bbe279000, 12288, PROT_READ) = 0
+mprotect(0x7f7bbe4bf000, 16384, PROT_READ) = 0
+mprotect(0x604000, 4096, PROT_READ)     = 0
+mprotect(0x7f7bbe6ea000, 4096, PROT_READ) = 0
+munmap(0x7f7bbe6c7000, 135840)          = 0
+set_tid_address(0x7f7bbe6b9e50)         = 11894
+set_robust_list(0x7f7bbe6b9e60, 24)     = 0
+futex(0x7fff9e6207f0, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f7bbe6b9b80) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7f7bba4a09f0, [], SA_RESTORER|SA_SIGINFO, 0x7f7bba4aa330}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f7bba4a0a80, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f7bba4aa330}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(0)                                  = 0xc6a000
+brk(0xc8b000)                           = 0xc8b000
+futex(0x7f7bbd6b594c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7bbd6b5958, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/tmp/bittest", O_RDONLY)          = -1 ENOENT (No such file or directory)
+access("./OpenNI.ini", F_OK)            = 0
+access("./OpenNI.ini", F_OK)            = 0
+stat("./OpenNI.ini", {st_mode=S_IFREG|0664, st_size=375, ...}) = 0
+open("./OpenNI.ini", O_RDONLY)          = 3
+read(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI.ini>, "[Log]\n; 0 - Verbose; 1 - Info; 2"..., 375) = 375
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI.ini>) = 0
+access("./OpenNI.ini", F_OK)            = 0
+stat("./OpenNI.ini", {st_mode=S_IFREG|0664, st_size=375, ...}) = 0
+open("./OpenNI.ini", O_RDONLY)          = 3
+read(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI.ini>, "[Log]\n; 0 - Verbose; 1 - Info; 2"..., 375) = 375
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI.ini>) = 0
+access("./OpenNI.ini", F_OK)            = 0
+stat("./OpenNI.ini", {st_mode=S_IFREG|0664, st_size=375, ...}) = 0
+open("./OpenNI.ini", O_RDONLY)          = 3
+read(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI.ini>, "[Log]\n; 0 - Verbose; 1 - Info; 2"..., 375) = 375
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI.ini>) = 0
+access("./OpenNI.ini", F_OK)            = 0
+stat("./OpenNI.ini", {st_mode=S_IFREG|0664, st_size=375, ...}) = 0
+open("./OpenNI.ini", O_RDONLY)          = 3
+read(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI.ini>, "[Log]\n; 0 - Verbose; 1 - Info; 2"..., 375) = 375
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI.ini>) = 0
+access("./OpenNI.ini", F_OK)            = 0
+stat("./OpenNI.ini", {st_mode=S_IFREG|0664, st_size=375, ...}) = 0
+open("./OpenNI.ini", O_RDONLY)          = 3
+read(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI.ini>, "[Log]\n; 0 - Verbose; 1 - Info; 2"..., 375) = 375
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI.ini>) = 0
+access("./OpenNI.ini", F_OK)            = 0
+stat("./OpenNI.ini", {st_mode=S_IFREG|0664, st_size=375, ...}) = 0
+open("./OpenNI.ini", O_RDONLY)          = 3
+read(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI.ini>, "[Log]\n; 0 - Verbose; 1 - Info; 2"..., 375) = 375
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI.ini>) = 0
+openat(AT_FDCWD, "./OpenNI2/Drivers", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers>, /* 10 entries */, 32768) = 360
+getdents(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers>, /* 0 entries */, 32768) = 0
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers>) = 0
+openat(AT_FDCWD, "./OpenNI2/Drivers", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers>, /* 10 entries */, 32768) = 360
+getdents(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers>, /* 0 entries */, 32768) = 0
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers>) = 0
+getcwd("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin", 256) = 72
+chdir("./OpenNI2/Drivers")              = 0
+getcwd("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers", 4096) = 88
+lstat("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libDummyDevice.so", {st_mode=S_IFREG|0775, st_size=136192, ...}) = 0
+futex(0x7f7bba4990d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libDummyDevice.so", O_RDONLY|O_CLOEXEC) = 3
+read(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libDummyDevice.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@:\0\0\0\0\0\0"..., 832) = 832
+fstat(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libDummyDevice.so>, {st_mode=S_IFREG|0775, st_size=136192, ...}) = 0
+mmap(NULL, 2201256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libDummyDevice.so>, 0) = 0x7f7bb9a6a000
+mprotect(0x7f7bb9a82000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bb9c82000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libDummyDevice.so>, 0x18000) = 0x7f7bb9c82000
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libDummyDevice.so>) = 0
+mprotect(0x7f7bb9c82000, 4096, PROT_READ) = 0
+getcwd("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers", 4096) = 88
+lstat("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libFreenectDriver.so", {st_mode=S_IFREG|0775, st_size=193088, ...}) = 0
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libFreenectDriver.so", O_RDONLY|O_CLOEXEC) = 3
+read(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libFreenectDriver.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\222\0\0\0\0\0\0"..., 832) = 832
+fstat(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libFreenectDriver.so>, {st_mode=S_IFREG|0775, st_size=193088, ...}) = 0
+mmap(NULL, 2258312, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libFreenectDriver.so>, 0) = 0x7f7bb9842000
+mprotect(0x7f7bb9868000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bb9a68000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libFreenectDriver.so>, 0x26000) = 0x7f7bb9a68000
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libFreenectDriver.so>) = 0
+open("./tls/x86_64/libusb-1.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libusb-1.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libusb-1.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libusb-1.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libusb-1.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=135840, ...}) = 0
+mmap(NULL, 135840, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f7bbe6c7000
+close(3</etc/ld.so.cache>)              = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libusb-1.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libusb-1.0.so.0.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P:\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libusb-1.0.so.0.1.0>, {st_mode=S_IFREG|0644, st_size=92864, ...}) = 0
+mmap(NULL, 2188384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libusb-1.0.so.0.1.0>, 0) = 0x7f7bb962b000
+mprotect(0x7f7bb9640000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bb9840000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libusb-1.0.so.0.1.0>, 0x15000) = 0x7f7bb9840000
+close(3</lib/x86_64-linux-gnu/libusb-1.0.so.0.1.0>) = 0
+open("./tls/x86_64/libudev.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libudev.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libudev.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libudev.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libudev.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libudev.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libudev.so.1.3.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0200\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libudev.so.1.3.5>, {st_mode=S_IFREG|0644, st_size=67600, ...}) = 0
+mmap(NULL, 2164816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libudev.so.1.3.5>, 0) = 0x7f7bb941a000
+mprotect(0x7f7bb942a000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bb9629000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libudev.so.1.3.5>, 0xf000) = 0x7f7bb9629000
+close(3</lib/x86_64-linux-gnu/libudev.so.1.3.5>) = 0
+open("./tls/x86_64/libcgmanager.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libcgmanager.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libcgmanager.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libcgmanager.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libcgmanager.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcgmanager.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libcgmanager.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0206\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libcgmanager.so.0.0.0>, {st_mode=S_IFREG|0644, st_size=108480, ...}) = 0
+mmap(NULL, 2203688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libcgmanager.so.0.0.0>, 0) = 0x7f7bb91ff000
+mprotect(0x7f7bb9218000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bb9417000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libcgmanager.so.0.0.0>, 0x18000) = 0x7f7bb9417000
+close(3</lib/x86_64-linux-gnu/libcgmanager.so.0.0.0>) = 0
+open("./tls/x86_64/libnih.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libnih.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libnih.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libnih.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libnih.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnih.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libnih.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`G\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libnih.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=96280, ...}) = 0
+mmap(NULL, 2191776, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnih.so.1.0.0>, 0) = 0x7f7bb8fe7000
+mprotect(0x7f7bb8ffe000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bb91fd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnih.so.1.0.0>, 0x16000) = 0x7f7bb91fd000
+close(3</lib/x86_64-linux-gnu/libnih.so.1.0.0>) = 0
+open("./tls/x86_64/libnih-dbus.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libnih-dbus.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libnih-dbus.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libnih-dbus.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libnih-dbus.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnih-dbus.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340,\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=38920, ...}) = 0
+mmap(NULL, 2134040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0>, 0) = 0x7f7bb8ddd000
+mprotect(0x7f7bb8de5000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bb8fe5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0>, 0x8000) = 0x7f7bb8fe5000
+close(3</lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0>) = 0
+open("./tls/x86_64/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libdbus-1.so.3.7.6>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@h\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libdbus-1.so.3.7.6>, {st_mode=S_IFREG|0644, st_size=281552, ...}) = 0
+mmap(NULL, 2377408, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdbus-1.so.3.7.6>, 0) = 0x7f7bb8b98000
+mprotect(0x7f7bb8bdc000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bb8ddb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdbus-1.so.3.7.6>, 0x43000) = 0x7f7bb8ddb000
+close(3</lib/x86_64-linux-gnu/libdbus-1.so.3.7.6>) = 0
+munmap(0x7f7bbe6c7000, 135840)          = 0
+munmap(0x7f7bb9842000, 2258312)         = 0
+munmap(0x7f7bb962b000, 2188384)         = 0
+munmap(0x7f7bb941a000, 2164816)         = 0
+munmap(0x7f7bb91ff000, 2203688)         = 0
+munmap(0x7f7bb8ddd000, 2134040)         = 0
+munmap(0x7f7bb8fe7000, 2191776)         = 0
+munmap(0x7f7bb8b98000, 2377408)         = 0
+getcwd("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers", 4096) = 88
+lstat("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libOniFile.so", {st_mode=S_IFREG|0775, st_size=416336, ...}) = 0
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libOniFile.so", O_RDONLY|O_CLOEXEC) = 3
+read(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libOniFile.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300Y\0\0\0\0\0\0"..., 832) = 832
+fstat(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libOniFile.so>, {st_mode=S_IFREG|0775, st_size=416336, ...}) = 0
+mmap(NULL, 2554824, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libOniFile.so>, 0) = 0x7f7bb97fa000
+mprotect(0x7f7bb9848000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bb9a47000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libOniFile.so>, 0x4d000) = 0x7f7bb9a47000
+mmap(0x7f7bb9a4a000, 129992, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7bb9a4a000
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libOniFile.so>) = 0
+mprotect(0x7f7bb9a47000, 8192, PROT_READ) = 0
+getcwd("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers", 4096) = 88
+lstat("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPS1080.so", {st_mode=S_IFREG|0775, st_size=968888, ...}) = 0
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPS1080.so", O_RDONLY|O_CLOEXEC) = 3
+read(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPS1080.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20H\1\0\0\0\0\0"..., 832) = 832
+fstat(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPS1080.so>, {st_mode=S_IFREG|0775, st_size=968888, ...}) = 0
+mmap(NULL, 3001112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPS1080.so>, 0) = 0x7f7bb951d000
+mprotect(0x7f7bb95d1000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bb97d1000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPS1080.so>, 0xb4000) = 0x7f7bb97d1000
+mmap(0x7f7bb97d9000, 133912, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7bb97d9000
+close(3</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPS1080.so>) = 0
+open("./tls/x86_64/libusb-1.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libusb-1.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libusb-1.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libusb-1.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libusb-1.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=135840, ...}) = 0
+mmap(NULL, 135840, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f7bbe6c7000
+close(3</etc/ld.so.cache>)              = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libusb-1.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libusb-1.0.so.0.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P:\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libusb-1.0.so.0.1.0>, {st_mode=S_IFREG|0644, st_size=92864, ...}) = 0
+mmap(NULL, 2188384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libusb-1.0.so.0.1.0>, 0) = 0x7f7bb9306000
+mprotect(0x7f7bb931b000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bb951b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libusb-1.0.so.0.1.0>, 0x15000) = 0x7f7bb951b000
+close(3</lib/x86_64-linux-gnu/libusb-1.0.so.0.1.0>) = 0
+open("./tls/x86_64/libudev.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libudev.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libudev.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libudev.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libudev.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libudev.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libudev.so.1.3.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0200\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libudev.so.1.3.5>, {st_mode=S_IFREG|0644, st_size=67600, ...}) = 0
+mmap(NULL, 2164816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libudev.so.1.3.5>, 0) = 0x7f7bb90f5000
+mprotect(0x7f7bb9105000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bb9304000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libudev.so.1.3.5>, 0xf000) = 0x7f7bb9304000
+close(3</lib/x86_64-linux-gnu/libudev.so.1.3.5>) = 0
+open("./tls/x86_64/libcgmanager.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libcgmanager.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libcgmanager.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libcgmanager.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libcgmanager.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcgmanager.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libcgmanager.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0206\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libcgmanager.so.0.0.0>, {st_mode=S_IFREG|0644, st_size=108480, ...}) = 0
+mmap(NULL, 2203688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libcgmanager.so.0.0.0>, 0) = 0x7f7bb8eda000
+mprotect(0x7f7bb8ef3000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bb90f2000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libcgmanager.so.0.0.0>, 0x18000) = 0x7f7bb90f2000
+close(3</lib/x86_64-linux-gnu/libcgmanager.so.0.0.0>) = 0
+open("./tls/x86_64/libnih.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libnih.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libnih.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libnih.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libnih.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnih.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libnih.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`G\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libnih.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=96280, ...}) = 0
+mmap(NULL, 2191776, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnih.so.1.0.0>, 0) = 0x7f7bb8cc2000
+mprotect(0x7f7bb8cd9000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bb8ed8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnih.so.1.0.0>, 0x16000) = 0x7f7bb8ed8000
+close(3</lib/x86_64-linux-gnu/libnih.so.1.0.0>) = 0
+open("./tls/x86_64/libnih-dbus.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libnih-dbus.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libnih-dbus.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libnih-dbus.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libnih-dbus.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnih-dbus.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340,\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=38920, ...}) = 0
+mmap(NULL, 2134040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0>, 0) = 0x7f7bb8ab8000
+mprotect(0x7f7bb8ac0000, 2097152, PROT_NONE) = 0
+mmap(0x7f7bb8cc0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0>, 0x8000) = 0x7f7bb8cc0000
+close(3</lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0>) = 0
+open("./tls/x86_64/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3</lib/x86_64-linux-gnu/libdbus-1.so.3.7.6>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@h\0\0\0\0\0\0"..., 832) = 832
+fstat(3</lib/x86_64-linux-gnu/libdbus-1.so.3.7.6>, {st_mode=S_IFREG|0644, st_size=281552, ...}) = 0
+mmap(NULL, 2377408, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdbus-1.so.3.7.6>, 0) = 0x7f7bb8873000
+mprotect(0x7f7bb88b7000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bb8ab6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdbus-1.so.3.7.6>, 0x43000) = 0x7f7bb8ab6000
+close(3</lib/x86_64-linux-gnu/libdbus-1.so.3.7.6>) = 0
+mprotect(0x7f7bb8ab6000, 4096, PROT_READ) = 0
+mprotect(0x7f7bb8ed8000, 4096, PROT_READ) = 0
+mprotect(0x7f7bb8cc0000, 4096, PROT_READ) = 0
+mprotect(0x7f7bb90f2000, 8192, PROT_READ) = 0
+mprotect(0x7f7bb9304000, 4096, PROT_READ) = 0
+mprotect(0x7f7bb951b000, 4096, PROT_READ) = 0
+mprotect(0x7f7bb97d1000, 16384, PROT_READ) = 0
+brk(0xcac000)                           = 0xcac000
+munmap(0x7f7bbe6c7000, 135840)          = 0
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3</etc/localtime>, {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+fstat(3</etc/localtime>, {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(3</etc/localtime>, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\0"..., 4096) = 118
+lseek(3</etc/localtime>, -62, SEEK_CUR) = 56
+read(3</etc/localtime>, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\0"..., 4096) = 62
+close(3</etc/localtime>)                = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+openat(AT_FDCWD, "/dev/bus/usb", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3</dev/bus/usb>, /* 4 entries */, 32768) = 96
+close(3</dev/bus/usb>)                  = 0
+uname({sys="Linux", node="zy-X555LB", ...}) = 0
+uname({sys="Linux", node="zy-X555LB", ...}) = 0
+uname({sys="Linux", node="zy-X555LB", ...}) = 0
+uname({sys="Linux", node="zy-X555LB", ...}) = 0
+stat("/sys/bus/usb/devices", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+open("/etc/udev/udev.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3</etc/udev/udev.conf>, {st_mode=S_IFREG|0644, st_size=148, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(3</etc/udev/udev.conf>, "# see udev(7) for details\n#\n# ud"..., 4096) = 148
+read(3</etc/udev/udev.conf>, "", 4096)  = 0
+close(3</etc/udev/udev.conf>)           = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+socket(PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC|SOCK_NONBLOCK, 15) = 3
+setsockopt(3, SOL_SOCKET, SO_ATTACH_FILTER, "\10\0\0\0\0\0\0\0000Ja\236\377\177\0\0", 16) = 0
+bind(3, {sa_family=AF_NETLINK, pid=0, groups=00000002}, 12) = 0
+getsockname(3, {sa_family=AF_NETLINK, pid=11894, groups=00000002}, [12]) = 0
+setsockopt(3, SOL_SOCKET, SO_PASSCRED, [1], 4) = 0
+fcntl(3<socket:[550192]>, F_GETFL)      = 0x802 (flags O_RDWR|O_NONBLOCK)
+fcntl(3<socket:[550192]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+pipe([4, 5])                            = 0
+fcntl(5<pipe:[550193]>, F_GETFL)        = 0x1 (flags O_WRONLY)
+fcntl(5<pipe:[550193]>, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f7bb8072000
+mprotect(0x7f7bb8072000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f7bb8871b70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f7bb88729d0, tls=0x7f7bb8872700, child_tidptr=0x7f7bb88729d0) = 11895
+stat("/sys/subsystem", 0x7fff9e615a30)  = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/sys/bus", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 6
+getdents(6</sys/bus>, /* 45 entries */, 32768) = 1264
+openat(AT_FDCWD, "/sys/bus/usb/devices", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+brk(0xccd000)                           = 0xccd000
+getdents(7</sys/bus/usb/devices>, /* 22 entries */, 32768) = 632
+readlink("/sys/bus/usb/devices/1-1.2:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 65
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-6:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/usb1", "../../../devices/pci0000:00/0000"..., 1024) = 45
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-5", "../../../devices/pci0000:00/0000"..., 1024) = 49
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-5:1.1", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-3:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-1.1", "../../../devices/pci0000:00/0000"..., 1024) = 55
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-3", "../../../devices/pci0000:00/0000"..., 1024) = 49
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-1", "../../../devices/pci0000:00/0000"..., 1024) = 49
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-0:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 53
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-6:1.1", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-8:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-8", "../../../devices/pci0000:00/0000"..., 1024) = 49
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/usb2", "../../../devices/pci0000:00/0000"..., 1024) = 45
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb2/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-6", "../../../devices/pci0000:00/0000"..., 1024) = 49
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-1.1:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 65
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-1.2", "../../../devices/pci0000:00/0000"..., 1024) = 55
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-1:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-5:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/2-0:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 53
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+getdents(7</sys/bus/usb/devices>, /* 0 entries */, 32768) = 0
+close(7</sys/bus/usb/devices>)          = 0
+getdents(6</sys/bus>, /* 0 entries */, 32768) = 0
+close(6</sys/bus>)                      = 0
+openat(AT_FDCWD, "/sys/class", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 6
+getdents(6</sys/class>, /* 68 entries */, 32768) = 2032
+getdents(6</sys/class>, /* 0 entries */, 32768) = 0
+close(6</sys/class>)                    = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/uevent>, "MAJOR=189\nMINOR=0\nDEVNAME=bus/us"..., 4096) = 124
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb1/busnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/busnum>, "1\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb1/devnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/devnum>, "1\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb1/speed", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/speed>, "480\n", 4096) = 4
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb1/descriptors", O_RDONLY) = 6
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/descriptors>, "\22\1\0\2\t\0\1@k\35\2\0\25\4\3\2\1\1\t\2\31\0\1\1\0\340\0\t\4\0\0\1"..., 1024) = 43
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=hub"..., 4096) = 138
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent>, "MAJOR=189\nMINOR=37\nDEVNAME=bus/u"..., 4096) = 124
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1/busnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/busnum>, "1\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1/devnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/devnum>, "38\n", 4096) = 3
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1/speed", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/speed>, "480\n", 4096) = 4
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1/descriptors", O_RDONLY) = 6
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/descriptors>, "\22\1\0\2\t\0\1@^\4\302\2\1\0\0\0\0\1\t\2\31\0\1\1\0\340\1\t\4\0\0\1"..., 1024) = 43
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent>, "MAJOR=189\nMINOR=40\nDEVNAME=bus/u"..., 4096) = 128
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.1/busnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/busnum>, "1\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.1/devnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/devnum>, "41\n", 4096) = 3
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.1/speed", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/speed>, "480\n", 4096) = 4
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.1/descriptors", O_RDONLY) = 6
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/descriptors>, "\22\1\0\2\377\0\0@^\4\255\2\0\1\1\2\3\1\t\2.\0\1\1\0\300\0\t\4\0\0\4"..., 1024) = 64
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent>, "DEVTYPE=usb_interface\nPRODUCT=45"..., 4096) = 132
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent>, "MAJOR=189\nMINOR=39\nDEVNAME=bus/u"..., 4096) = 126
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.2/busnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/busnum>, "1\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.2/devnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/devnum>, "40\n", 4096) = 3
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.2/speed", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/speed>, "480\n", 4096) = 4
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.2/descriptors", O_RDONLY) = 6
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/descriptors>, "\22\1\0\2\0\0\0@^\4\256\2\5\2\2\1\3\1\t\2 \0\1\1\0\300\10\t\4\0\0\2"..., 1024) = 50
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent>, "DEVTYPE=usb_interface\nPRODUCT=45"..., 4096) = 132
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=hub"..., 4096) = 137
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent>, "MAJOR=189\nMINOR=5\nDEVNAME=bus/us"..., 4096) = 127
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-3/busnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/busnum>, "1\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-3/devnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/devnum>, "6\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-3/speed", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/speed>, "1.5\n", 4096) = 4
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-3/descriptors", O_RDONLY) = 6
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/descriptors>, "\22\1\0\2\0\0\0\10m\4w\300\0g\1\2\0\1\t\2\"\0\1\1\0\2401\t\4\0\0\1"..., 1024) = 52
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=usb"..., 4096) = 144
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent>, "MAJOR=189\nMINOR=1\nDEVNAME=bus/us"..., 4096) = 127
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-5/busnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/busnum>, "1\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-5/devnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/devnum>, "2\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-5/speed", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/speed>, "480\n", 4096) = 4
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-5/descriptors", O_RDONLY) = 6
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/descriptors>, "\22\1\0\2\357\2\1@\332\v\265W\22\0\3\1\2\1\t\2\367\1\2\1\4\200\372\10\v\0\2\16"..., 1024) = 521
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=uvc"..., 4096) = 147
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent>, "DEVTYPE=usb_interface\nDRIVER=uvc"..., 4096) = 147
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent>, "MAJOR=189\nMINOR=22\nDEVNAME=bus/u"..., 4096) = 128
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-6/busnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/busnum>, "1\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-6/devnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/devnum>, "23\n", 4096) = 3
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-6/speed", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/speed>, "12\n", 4096) = 3
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-6/descriptors", O_RDONLY) = 6
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/descriptors>, "\22\1\20\1\340\1\1@\323\23#4\2\0\0\0\0\1\t\2\271\0\2\1\0\3402\10\v\0\2\340"..., 1024) = 203
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=btu"..., 4096) = 145
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent>, "DEVTYPE=usb_interface\nDRIVER=btu"..., 4096) = 145
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent>, "MAJOR=189\nMINOR=3\nDEVNAME=bus/us"..., 4096) = 132
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-8/busnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/busnum>, "1\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-8/devnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/devnum>, "4\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-8/speed", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/speed>, "480\n", 4096) = 4
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-8/descriptors", O_RDONLY) = 6
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/descriptors>, "\22\1\0\2\377\377\377@\332\v)\1`9\1\2\3\1\t\2'\0\1\1\4\240\372\t\4\0\0\3"..., 1024) = 57
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=rts"..., 4096) = 154
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb2", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb2/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb2/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb2/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb2/uevent>, "MAJOR=189\nMINOR=128\nDEVNAME=bus/"..., 4096) = 126
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb2/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb2/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb2/busnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb2/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb2/busnum>, "2\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb2/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb2/devnum", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb2/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb2/devnum>, "1\n", 4096) = 2
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb2/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb2/speed", O_RDONLY) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb2/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb2/speed>, "5000\n", 4096) = 5
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb2/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb2/descriptors", O_RDONLY) = 6
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb2/descriptors>, "\22\1\0\3\t\0\3\tk\35\3\0\25\4\3\2\1\1\t\2\37\0\1\1\0\340\0\t\4\0\0\1"..., 1024) = 49
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb2/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6</sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=hub"..., 4096) = 138
+read(6</sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent>, "", 4096) = 0
+close(6</sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+pipe([6, 7])                            = 0
+fcntl(7<pipe:[549523]>, F_GETFL)        = 0x1 (flags O_WRONLY)
+fcntl(7<pipe:[549523]>, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+pipe([8, 9])                            = 0
+fcntl(9<pipe:[549524]>, F_GETFL)        = 0x1 (flags O_WRONLY)
+fcntl(9<pipe:[549524]>, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+timerfd_create(CLOCK_MONOTONIC, 0x800 /* TFD_??? */) = 10
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f7bb7871000
+mprotect(0x7f7bb7871000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f7bb8070b70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f7bb80719d0, tls=0x7f7bb8071700, child_tidptr=0x7f7bb80719d0) = 11896
+recvmsg(3, 0x7fff9e613a70, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(3, 0x7fff9e613a70, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(3, 0x7fff9e613a70, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(3, 0x7fff9e613a70, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+getcwd("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers", 4096) = 88
+lstat("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPSLink.so", {st_mode=S_IFREG|0775, st_size=513152, ...}) = 0
+open("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPSLink.so", O_RDONLY|O_CLOEXEC) = 14
+read(14</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPSLink.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\303\0\0\0\0\0\0"..., 832) = 832
+fstat(14</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPSLink.so>, {st_mode=S_IFREG|0775, st_size=513152, ...}) = 0
+mmap(NULL, 2488952, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 14</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPSLink.so>, 0) = 0x7f7bb7611000
+mprotect(0x7f7bb766c000, 2093056, PROT_NONE) = 0
+mmap(0x7f7bb786b000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 14</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPSLink.so>, 0x5a000) = 0x7f7bb786b000
+mmap(0x7f7bb7870000, 2680, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7bb7870000
+close(14</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/OpenNI2/Drivers/libPSLink.so>) = 0
+mprotect(0x7f7bb786b000, 16384, PROT_READ) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+openat(AT_FDCWD, "/dev/bus/usb", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 12
+getdents(12</dev/bus/usb>, /* 4 entries */, 32768) = 96
+close(12</dev/bus/usb>)                 = 0
+stat("/sys/bus/usb/devices", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+stat("/sys/subsystem", 0x7fff9e615a30)  = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/sys/bus", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 13
+getdents(13</sys/bus>, /* 45 entries */, 32768) = 1264
+openat(AT_FDCWD, "/sys/bus/usb/devices", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 14
+getdents(14</sys/bus/usb/devices>, /* 22 entries */, 32768) = 632
+readlink("/sys/bus/usb/devices/1-1.2:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 65
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-6:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/usb1", "../../../devices/pci0000:00/0000"..., 1024) = 45
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-5", "../../../devices/pci0000:00/0000"..., 1024) = 49
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-5:1.1", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-3:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-1.1", "../../../devices/pci0000:00/0000"..., 1024) = 55
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-3", "../../../devices/pci0000:00/0000"..., 1024) = 49
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-1", "../../../devices/pci0000:00/0000"..., 1024) = 49
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-0:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 53
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-6:1.1", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-8:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-8", "../../../devices/pci0000:00/0000"..., 1024) = 49
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/usb2", "../../../devices/pci0000:00/0000"..., 1024) = 45
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb2/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-6", "../../../devices/pci0000:00/0000"..., 1024) = 49
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-1.1:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 65
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-1.2", "../../../devices/pci0000:00/0000"..., 1024) = 55
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-1:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/1-5:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 57
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+readlink("/sys/bus/usb/devices/2-0:1.0", "../../../devices/pci0000:00/0000"..., 1024) = 53
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+getdents(14</sys/bus/usb/devices>, /* 0 entries */, 32768) = 0
+close(14</sys/bus/usb/devices>)         = 0
+getdents(13</sys/bus>, /* 0 entries */, 32768) = 0
+close(13</sys/bus>)                     = 0
+openat(AT_FDCWD, "/sys/class", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 12
+getdents(12</sys/class>, /* 68 entries */, 32768) = 2032
+getdents(12</sys/class>, /* 0 entries */, 32768) = 0
+close(12</sys/class>)                   = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/uevent>, "MAJOR=189\nMINOR=0\nDEVNAME=bus/us"..., 4096) = 124
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb1/busnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/busnum>, "1\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb1/devnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/devnum>, "1\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb1/speed", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/speed>, "480\n", 4096) = 4
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb1/descriptors", O_RDONLY) = 12
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/descriptors>, "\22\1\0\2\t\0\1@k\35\2\0\25\4\3\2\1\1\t\2\31\0\1\1\0\340\0\t\4\0\0\1"..., 1024) = 43
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=hub"..., 4096) = 138
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent>, "MAJOR=189\nMINOR=37\nDEVNAME=bus/u"..., 4096) = 124
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1/busnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/busnum>, "1\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1/devnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/devnum>, "38\n", 4096) = 3
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1/speed", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/speed>, "480\n", 4096) = 4
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1/descriptors", O_RDONLY) = 12
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/descriptors>, "\22\1\0\2\t\0\1@^\4\302\2\1\0\0\0\0\1\t\2\31\0\1\1\0\340\1\t\4\0\0\1"..., 1024) = 43
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent>, "MAJOR=189\nMINOR=40\nDEVNAME=bus/u"..., 4096) = 128
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.1/busnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/busnum>, "1\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.1/devnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/devnum>, "41\n", 4096) = 3
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.1/speed", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/speed>, "480\n", 4096) = 4
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.1/descriptors", O_RDONLY) = 12
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/descriptors>, "\22\1\0\2\377\0\0@^\4\255\2\0\1\1\2\3\1\t\2.\0\1\1\0\300\0\t\4\0\0\4"..., 1024) = 64
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent>, "DEVTYPE=usb_interface\nPRODUCT=45"..., 4096) = 132
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent>, "MAJOR=189\nMINOR=39\nDEVNAME=bus/u"..., 4096) = 126
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.2/busnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/busnum>, "1\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.2/devnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/devnum>, "40\n", 4096) = 3
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.2/speed", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/speed>, "480\n", 4096) = 4
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-1.2/descriptors", O_RDONLY) = 12
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/descriptors>, "\22\1\0\2\0\0\0@^\4\256\2\5\2\2\1\3\1\t\2 \0\1\1\0\300\10\t\4\0\0\2"..., 1024) = 50
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent>, "DEVTYPE=usb_interface\nPRODUCT=45"..., 4096) = 132
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.2/1-1.2:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=hub"..., 4096) = 137
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent>, "MAJOR=189\nMINOR=5\nDEVNAME=bus/us"..., 4096) = 127
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-3/busnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/busnum>, "1\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-3/devnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/devnum>, "6\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-3/speed", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/speed>, "1.5\n", 4096) = 4
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-3/descriptors", O_RDONLY) = 12
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/descriptors>, "\22\1\0\2\0\0\0\10m\4w\300\0g\1\2\0\1\t\2\"\0\1\1\0\2401\t\4\0\0\1"..., 1024) = 52
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=usb"..., 4096) = 144
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent>, "MAJOR=189\nMINOR=1\nDEVNAME=bus/us"..., 4096) = 127
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-5/busnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/busnum>, "1\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-5/devnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/devnum>, "2\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-5/speed", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/speed>, "480\n", 4096) = 4
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-5/descriptors", O_RDONLY) = 12
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/descriptors>, "\22\1\0\2\357\2\1@\332\v\265W\22\0\3\1\2\1\t\2\367\1\2\1\4\200\372\10\v\0\2\16"..., 1024) = 521
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=uvc"..., 4096) = 147
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent>, "DEVTYPE=usb_interface\nDRIVER=uvc"..., 4096) = 147
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent>, "MAJOR=189\nMINOR=22\nDEVNAME=bus/u"..., 4096) = 128
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-6/busnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/busnum>, "1\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-6/devnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/devnum>, "23\n", 4096) = 3
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-6/speed", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/speed>, "12\n", 4096) = 3
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-6/descriptors", O_RDONLY) = 12
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/descriptors>, "\22\1\20\1\340\1\1@\323\23#4\2\0\0\0\0\1\t\2\271\0\2\1\0\3402\10\v\0\2\340"..., 1024) = 203
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=btu"..., 4096) = 145
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent>, "DEVTYPE=usb_interface\nDRIVER=btu"..., 4096) = 145
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent>, "MAJOR=189\nMINOR=3\nDEVNAME=bus/us"..., 4096) = 132
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-8/busnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/busnum>, "1\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-8/devnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/devnum>, "4\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-8/speed", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/speed>, "480\n", 4096) = 4
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/1-8/descriptors", O_RDONLY) = 12
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/descriptors>, "\22\1\0\2\377\377\377@\332\v)\1`9\1\2\3\1\t\2'\0\1\1\4\240\372\t\4\0\0\3"..., 1024) = 57
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=rts"..., 4096) = 154
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb2", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb2/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb2/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb2/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb2/uevent>, "MAJOR=189\nMINOR=128\nDEVNAME=bus/"..., 4096) = 126
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb2/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb2/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb2/busnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb2/busnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb2/busnum>, "2\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb2/busnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb2/devnum", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb2/devnum>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb2/devnum>, "1\n", 4096) = 2
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb2/devnum>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb2/speed", O_RDONLY) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb2/speed>, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb2/speed>, "5000\n", 4096) = 5
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb2/speed>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+open("/sys/bus/usb/devices/usb2/descriptors", O_RDONLY) = 12
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb2/descriptors>, "\22\1\0\3\t\0\3\tk\35\3\0\25\4\3\2\1\1\t\2\37\0\1\1\0\340\0\t\4\0\0\1"..., 1024) = 49
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb2/descriptors>) = 0
+readlink("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0", 0x7fff9e614dd0, 1024) = -1 EINVAL (Invalid argument)
+stat("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+open("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent", O_RDONLY|O_CLOEXEC) = 12
+fstat(12</sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent>, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent>, "DEVTYPE=usb_interface\nDRIVER=hub"..., 4096) = 138
+read(12</sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent>, "", 4096) = 0
+close(12</sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent>) = 0
+munmap(0x7f7bbe6e8000, 4096)            = 0
+pipe([12, 13])                          = 0
+fcntl(13<pipe:[549525]>, F_GETFL)       = 0x1 (flags O_WRONLY)
+fcntl(13<pipe:[549525]>, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+pipe([14, 15])                          = 0
+fcntl(15<pipe:[549526]>, F_GETFL)       = 0x1 (flags O_WRONLY)
+fcntl(15<pipe:[549526]>, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+timerfd_create(CLOCK_MONOTONIC, 0x800 /* TFD_??? */) = 16
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f7bb6e10000
+mprotect(0x7f7bb6e10000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f7bb760fb70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f7bb76109d0, tls=0x7f7bb7610700, child_tidptr=0x7f7bb76109d0) = 11897
+recvmsg(3, 0x7fff9e613a70, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(3, 0x7fff9e613a70, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(3, 0x7fff9e613a70, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(3, 0x7fff9e613a70, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(3, 0x7fff9e613a70, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(3, 0x7fff9e613a70, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+chdir("/home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin") = 0
+fstat(1</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/log>, {st_mode=S_IFREG|0644, st_size=150750, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7bbe6e8000
+munmap(0x7f7bb9a6a000, 2201256)         = 0
+munmap(0x7f7bb97fa000, 2554824)         = 0
+futex(0x7f7bb80719d0, FUTEX_WAIT, 11896, {1, 999997428}) = 0
+close(6<pipe:[549523]>)                 = 0
+close(7<pipe:[549523]>)                 = 0
+close(8<pipe:[549524]>)                 = 0
+close(9<pipe:[549524]>)                 = 0
+close(10<anon_inode:[timerfd]>)         = 0
+munmap(0x7f7bb951d000, 3001112)         = 0
+futex(0x7f7bb76109d0, FUTEX_WAIT, 11897, {1, 999999239}) = 0
+close(12<pipe:[549525]>)                = 0
+close(13<pipe:[549525]>)                = 0
+close(14<pipe:[549526]>)                = 0
+close(15<pipe:[549526]>)                = 0
+close(16<anon_inode:[timerfd]>)         = 0
+write(5<pipe:[550193]>, "\1", 1)        = 1
+futex(0x7f7bb88729d0, FUTEX_WAIT, 11895, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+close(3<socket:[550192]>)               = 0
+close(4<pipe:[550193]>)                 = 0
+close(5<pipe:[550193]>)                 = 0
+munmap(0x7f7bb7611000, 2488952)         = 0
+munmap(0x7f7bb9306000, 2188384)         = 0
+munmap(0x7f7bb90f5000, 2164816)         = 0
+munmap(0x7f7bb8eda000, 2203688)         = 0
+munmap(0x7f7bb8ab8000, 2134040)         = 0
+munmap(0x7f7bb8873000, 2377408)         = 0
+munmap(0x7f7bb8cc2000, 2191776)         = 0
+write(1</home/zy/Documents/SummerResearch/kinect/NiTE-Linux-x64-2.2/Samples/Bin/log>, "Open Device failed:\n\tDeviceOpen "..., 65Open Device failed:
+	DeviceOpen using default: no devices found
+
+) = 65
+exit_group(1)                           = ?
++++ exited with 1 +++
